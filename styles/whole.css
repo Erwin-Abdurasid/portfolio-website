@@ -1,0 +1,22 @@
+.webdev {
+    height: auto;
+    width: auto;
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: #000 2px 2px 5px;
+}
+
+.h2-lower {
+    padding-top: 100px;
+}
+
+.upper-img {
+    height: 30vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.lower-content {
+    padding: 30px;
+}

@@ -1,0 +1,288 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../raw-data/img/background.jpeg);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p.small-name-logo {
+    padding: 0;
+    margin: 0;
+    color: rgba(250, 250, 250, 0.01);
+    position: absolute;
+    top: 15%;
+    left: 92%;
+}
+
+/* Font Colors */
+.text-violet {
+    color: #7b23ff;
+}
+
+.text-white {
+    color: #d1cdcd;
+}
+
+.text-black {
+    color: #180d0d;
+}
+
+.text-red {
+    color: #8d1414;
+}
+
+.text-green {
+    color: #155f15;
+}
+
+.text-blue {
+    color: #0a4bad;
+}
+
+.bg-blue {
+    background-color: #151686;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.text-justice {
+    text-align: justify;
+    padding: 20px;
+    color: #000;
+    border: 2px double #fff;
+    width: 60%;
+    background: rgba(250, 250, 250, 0.5);
+    margin: 5px auto 5px auto;
+}
+
+.padding {
+    padding: 0 50px 20px 50px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.bg-like-footer {
+    border-top-left-radius: 125px;
+    padding: 50px;
+}
+
+.footer {
+    border-top-left-radius: 0;
+}
+
+.alone-text {
+    position: absolute;
+    left: 100px;
+}
+
+.border {
+    border: 5px solid #000;
+}
+
+.no-decor {
+    text-decoration: none;
+}
+
+.centerer {
+    align-items: center;
+    justify-content: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.ml-25 {
+    margin-left: 25%;
+}
+
+.ml-20 {
+    margin-left: 20%;
+}
+
+.quote {
+    padding: 40vh 0;
+    font-style: oblique;
+    font-weight: 500;
+    color: #d1cdcd;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: rgba(250, 250, 250, 0.1);
+    animation: textstyle 10s infinite;
+}
+
+.improved-link {
+    color: #151686;
+}
+
+.improved-link:hover,
+.improved-link:active {
+    color: #15178678;
+    text-decoration: none;
+}
+
+.improved-link-white {
+    color: #d1cdcd;
+    text-decoration: none;
+}
+
+.improved-link-white:hover,
+.improved-link-white:active {
+    color: #e6e6f15e;
+    text-decoration: underline;
+}
+
+/* Half */
+.whole {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.half {
+    flex-basis: 50%;
+}
+
+.half img {
+    width: 100%;
+}
+
+/* Half End */
+@keyframes textstyle {
+    0% {
+        color: #8d1414;
+    }
+
+    10% {
+        color: #155f15;
+    }
+
+    20% {
+        color: #0a4bad;
+    }
+
+    30%,
+    40%,
+    50%,
+    60%,
+    70%,
+    80% {
+        color: #d1cdcd;
+    }
+
+    100% {
+        color: #000;
+    }
+}
+
+.hero {
+    height: auto;
+}
+
+.name {
+    font-size: 55px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 50px;
+    text-align: center;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 5px;
+    color: #d1cdcd;
+    box-shadow: 2px 2px #000;
+    background-color: #0a4bad;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #d1cdcd;
+    color: #0a4bad;
+}
+
+.front-face {
+    background-image: url(../raw-data/img/cs2.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 10px;
+    padding-top: 10px;
+    transition: padding-left 1s, padding-top 1s;
+}
+
+.front-face:hover {
+    padding: 0;
+}
+
+/* Responsivity */
+@media (max-width: 1025px) {
+    .ml-25 {
+        margin-left: 0;
+    }
+
+    .ml-20 {
+        margin-left: 0;
+    }
+
+    .text-justice {
+        width: 96%;
+    }
+}
+
+@media (max-width: 830px) {
+    .padding {
+        padding: 0 10px 10px 10px;
+    }
+}
+
+@media (max-width: 701px) {
+    .half {
+        flex-basis: 100%;
+    }
+
+    .padding {
+        padding: 0 0 10px 0;
+    }
+}
+
+@media (max-width: 550px) {
+    .text-justice {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 426px) {
+    .alone-text {
+        position: static;
+    }
+
+    .bg-like-footer {
+        padding: 50px;
+    }
+
+    .quote {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 349px) {
+    .text-justice {
+        width: 98%;
+    }
+}

@@ -1,0 +1,58 @@
+.box-wrapper-grid {
+    display: grid;
+    gap: 0.3rem;
+    grid-auto-flow: column;
+    grid-auto-columns: 40%;
+    overflow-x: auto;
+    padding: 0 1rem 1rem;
+    overscroll-behavior-inline: contain;
+}
+.box-item-grid {
+    display: grid;
+    grid-template-rows: min-content;
+    gap: 0.3rem;
+    padding: 1rem;
+    background: #151686;
+    border-radius: 5px;
+    box-shadow: 2px 2px #000;
+}
+.snaps-inline {
+    scroll-snap-type: inline mandatory;
+}
+.snaps-inline > * {
+    scroll-snap-align: start;
+    scroll-padding-inline: 1rem;
+}
+.box-item-grid img {
+    inline-size: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
+.info-wrapper {
+    min-width: 310px;
+    width: 98%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+}
+.info-list {
+    font-family: serif;
+    margin: 0 5% 0 5%;
+    line-height: 25px;
+}
+/* Get from another style: Whole.css */
+.h2-lower {
+    padding-top: 100px;
+}
+@media (min-width: 1024px) {
+    .box-wrapper-grid {
+        grid-auto-columns: 21%;
+    }
+}
+@media (max-width: 321px) {
+    .info-list {
+        line-height: 20px;
+    }
+}
