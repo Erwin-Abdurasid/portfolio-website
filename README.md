@@ -8,7 +8,10 @@
 
 ![year](https://img.shields.io/badge/year-2025-blue) ![developer-level](https://img.shields.io/badge/developer--level-mid--level-green)
 
+---
+
 ## Table of Contents
+
 1. [Introduction](#introduction)
 
 ---
