@@ -20,6 +20,20 @@
 
 Welcome to my **Portfolio Website**. This is a pure static website built from HTML and CSS. It is for showcasing my knowledge and level in the tech industry.
 
+![SS1](raw-data/img/my-proj/my-portfolio/SS1.png)
+
+![SS2](raw-data/img/my-proj/my-portfolio/SS2.png)
+
+![SS3](raw-data/img/my-proj/my-portfolio/SS3.png)
+
+![SS4](raw-data/img/my-proj/my-portfolio/SS4.png)
+
+![SS5](raw-data/img/my-proj/my-portfolio/SS5.png)
+
+![SS6](raw-data/img/my-proj/my-portfolio/SS6.png)
+
+![SS7](raw-data/img/my-proj/my-portfolio/SS7.png)
+
 ---
 
 ### Note:
