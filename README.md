@@ -8,14 +8,19 @@
 
 ![year](https://img.shields.io/badge/year-2025-blue) ![developer-level](https://img.shields.io/badge/developer--level-mid--level-green)
 
-## Software Description
-
-This is a pure static website built from HTML and CSS. It is for showcasing the developer's knowledge and level in the tech industry.
+## Table of Contents
+1. [Introduction](#introduction)
 
 ---
 
-## NOTE:
+## Introduction
 
-The owner's information about his career as a programmer and web developer is all included in this simple website.
+Welcome to my **Portfolio Website**. This is a pure static website built from HTML and CSS. It is for showcasing my knowledge and level in the tech industry.
 
-This is his ***first time*** developing a website. That's why copying the source code from this repository (of this website) is not appropriate.
+---
+
+### Note:
+
+- The owner's information about his career as a programmer and web developer is all included in this simple website.
+
+- This is his ***first time*** developing a website. That's why copying the source code from this repository (of this website) is not appropriate.
