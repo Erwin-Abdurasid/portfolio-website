@@ -1,4 +1,4 @@
-# ![Logo](raw-data/icons/favicon.ico) Portfolio Website
+# ![Logo](raw-data/icons/favicon.ico) Erwin Hadjirul Portfolio Website
 
 ![year](https://img.shields.io/badge/year-2022-blue) ![developer-level](https://img.shields.io/badge/developer--level-beginner-yellow)
 
@@ -18,7 +18,7 @@
 
 ## Introduction
 
-Welcome to my **Portfolio Website**. This is a pure static website built from HTML and CSS. It is for showcasing my knowledge and level in the tech industry.
+Welcome to my **Portfolio Website**. This is a pure static website built from `HTML & CSS`. It is for showcasing my knowledge and level in the tech industry.
 
 ![SS1](raw-data/img/my-proj/my-portfolio/SS1.png)
 
